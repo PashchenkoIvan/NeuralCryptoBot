@@ -1,0 +1,33 @@
+{
+  "name": "neural-crypto-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PashchenkoIvan/NeuralCryptoBot.git"
+  },
+  "author": "IvanPashchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PashchenkoIvan/NeuralCryptoBot/issues"
+  },
+  "homepage": "https://github.com/PashchenkoIvan/NeuralCryptoBot#readme",
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "@types/node": "^20.8.4",
+    "@types/synaptic": "^1.0.8",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "binance-api-node": "^0.12.7",
+    "cli-progress": "^3.12.0",
+    "date-fns": "^3.6.0",
+    "synaptic": "^1.1.4"
+  }
+}
